@@ -1,11 +1,23 @@
 @import './variables';
 
 
+@font-face {
+    font-family: lexend;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: shoulders;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+    font-weight: 700;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
     
-    &:a {
+    a {
         color: $linkBlue;
     }
 }
