@@ -1,9 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,YAAY,CAAC;EACT,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CAKrB;;AAPD,AAII,YAJQ,AAIP,EAAE,CAAC;EACA,KAAK,ECLF,OAAkB;CDMxB",
+    "mappings": "AAGA,AAAA,YAAY,CAAC;EACT,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CAKrB;;AAPD,AAII,YAJQ,AAIP,EAAE,CAAC;EACA,KAAK,ECEF,OAAkB;CDDxB",
     "sources": [
         "style.scss",
-        "variables.scss"
+        "_variables.scss"
     ],
     "names": [],
     "file": "style.css"
