@@ -1,0 +1,38 @@
+@import './variables';
+
+.card {
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+}
+
+.card-description {
+    color: $lightGray;
+    padding: 20px 35px;
+    // height: 100%;
+    font-family: 'Lexend Deca';
+    font-size: 12px;
+}
+
+.card-title {
+    color: $white;
+    padding: 20px 35px 0;
+    font-family: 'Big Shoulders Display';
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#sedan {
+    background-color: $orange;
+    border-radius: 6px 0 0 6px;
+}
+
+#suvs {
+    background-color: $cyan;
+}
+
+#luxury {
+    background-color: $darkCyan;
+    border-radius: 0 6px 6px 0;
+}
