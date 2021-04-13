@@ -53,6 +53,14 @@
   color: #e38826;
 }
 
+.btn.suvs {
+  color: #006970;
+}
+
+.btn.luxury {
+  color: #004241;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
