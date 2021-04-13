@@ -3,9 +3,8 @@
 
 
 .card {
-    height: 400px;
+    height: 385px;
     width: 235px;
-    display: inline-block;
     text-align: left;
 
     &.sedan {
@@ -28,7 +27,6 @@
 .card-description {
     color: $lightGray;
     padding: 20px 35px;
-    // height: 100%;
     font-family: 'Lexend Deca';
     font-size: 12px;
     line-height: 1.7;
