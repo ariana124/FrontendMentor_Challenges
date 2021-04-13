@@ -7,6 +7,22 @@
     width: 200px;
     display: inline-block;
     text-align: left;
+
+    &.sedan {
+        background-color: $orange;
+        border-radius: 6px 0 0 6px;
+    }
+    
+    &.suvs {
+        background-color: $cyan;
+    }
+    
+    &.luxury {
+        background-color: $darkCyan;
+        border-radius: 0 6px 6px 0;
+    }
+    
+
 }
 
 .card-description {
@@ -23,18 +39,4 @@
     font-family: 'Big Shoulders Display';
     font-size: 2em;
     text-transform: uppercase;
-}
-
-.card.sedan {
-    background-color: $orange;
-    border-radius: 6px 0 0 6px;
-}
-
-.card.suvs {
-    background-color: $cyan;
-}
-
-.card.luxury {
-    background-color: $darkCyan;
-    border-radius: 0 6px 6px 0;
 }
