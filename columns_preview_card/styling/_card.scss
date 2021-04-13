@@ -3,8 +3,8 @@
 
 
 .card {
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 220px; // ideal 225
     display: inline-block;
     text-align: left;
 
@@ -31,6 +31,7 @@
     // height: 100%;
     font-family: 'Lexend Deca';
     font-size: 12px;
+    line-height: 1.7;
 }
 
 .card-title {
