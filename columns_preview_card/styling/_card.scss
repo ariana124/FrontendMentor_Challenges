@@ -25,16 +25,16 @@
     text-transform: uppercase;
 }
 
-#sedan {
+.card.sedan {
     background-color: $orange;
     border-radius: 6px 0 0 6px;
 }
 
-#suvs {
+.card.suvs {
     background-color: $cyan;
 }
 
-#luxury {
+.card.luxury {
     background-color: $darkCyan;
     border-radius: 0 6px 6px 0;
 }

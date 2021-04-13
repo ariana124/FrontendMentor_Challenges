@@ -26,16 +26,16 @@
   text-transform: uppercase;
 }
 
-#sedan {
+.card.sedan {
   background-color: #e38826;
   border-radius: 6px 0 0 6px;
 }
 
-#suvs {
+.card.suvs {
   background-color: #006970;
 }
 
-#luxury {
+.card.luxury {
   background-color: #004241;
   border-radius: 0 6px 6px 0;
 }
@@ -49,7 +49,7 @@
   margin: 0 35px;
 }
 
-.btn #sedan {
+.btn .sedan {
   color: #e38826;
 }
 
