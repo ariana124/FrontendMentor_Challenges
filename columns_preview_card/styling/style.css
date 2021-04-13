@@ -53,12 +53,33 @@
   color: #e38826;
 }
 
+.btn.sedan:hover {
+  color: #f2f2f2;
+  cursor: pointer;
+  border: 2px solid #f2f2f2;
+  background-color: #e38826;
+}
+
 .btn.suvs {
   color: #006970;
 }
 
+.btn.suvs:hover {
+  color: #f2f2f2;
+  cursor: pointer;
+  border: 2px solid #f2f2f2;
+  background-color: #006970;
+}
+
 .btn.luxury {
   color: #004241;
+}
+
+.btn.luxury:hover {
+  color: #f2f2f2;
+  cursor: pointer;
+  border: 2px solid #f2f2f2;
+  background-color: #004241;
 }
 
 * {

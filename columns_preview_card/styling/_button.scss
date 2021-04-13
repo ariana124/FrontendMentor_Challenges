@@ -12,13 +12,35 @@
 
     &.sedan {
         color: $orange;
+
+        &:hover {
+            color: $white;
+            cursor: pointer;
+            border: 2px solid $white;
+            background-color: $orange;
+        }
     }
 
     &.suvs {
         color: $cyan;
+
+        &:hover {
+            color: $white;
+            cursor: pointer;
+            border: 2px solid $white;
+            background-color: $cyan;
+        }
     }
 
     &.luxury {
         color: $darkCyan;
+
+        &:hover {
+            color: $white;
+            cursor: pointer;
+            border: 2px solid $white;
+            background-color: $darkCyan;
+        }
     }
+
 }
