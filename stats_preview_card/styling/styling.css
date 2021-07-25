@@ -1,3 +1,25 @@
+.background {
+  background-color: #090b1a;
+}
+
+.card {
+  margin: auto;
+  width: 80%;
+}
+
+.card-text {
+  color: white;
+}
+
+.buzz-word {
+  color: #aa5cdb;
+}
+
+.card-img {
+  -webkit-filter: brightness(39%) sepia(100%) hue-rotate(230deg) saturate(420%) contrast(0.9);
+          filter: brightness(39%) sepia(100%) hue-rotate(230deg) saturate(420%) contrast(0.9);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

@@ -1,3 +1,27 @@
+@import './variables';
+
+
+.background {
+    background-color: $darkBlue;
+}
+
+.card {
+     margin: auto;
+     width: 80%;
+}
+
+.card-text {
+    color: $white;
+}
+
+.buzz-word {
+    color: $violet;
+}
+
+.card-img {
+    filter: brightness(39%) sepia(100%) hue-rotate(230deg) saturate(420%) contrast(0.9);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
